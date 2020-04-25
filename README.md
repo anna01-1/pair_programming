@@ -8,3 +8,7 @@
 商不为小数或分数（即必须整除）。要求总计输出10
 个运算式，每输出一个运算式，等待输入结果，然后进
 行对错判断并输出。最后输出统计答对的题数与分。
+
+小组组长：何国行     https://www.cnblogs.com/cshgh/
+
+小组成员：汤友丽     https://www.cnblogs.com/letusrushb/
