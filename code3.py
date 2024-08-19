@@ -7,13 +7,9 @@ def szys():
     sym = ['＋', '－', '×', '÷']
 
     f = random.randint(0, 3)
-
     n1 = random.randint(0, 100)
-
     n2 = random.randint(0, 100)
-
     result = 0
-
     if f == 0:  # 加法
 
         result = n1 + n2
