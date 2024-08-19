@@ -3,7 +3,7 @@ import random
 
 # 四则运算
 
-def szys():
+def arithmetic():
     sym = ['＋', '－', '×', '÷']
 
     f = random.randint(0, 3)
@@ -16,7 +16,7 @@ def szys():
 		
         if result >= 100:
 		
-            result = szys()
+            result = arithmetic()
 			
             return result
 
@@ -28,7 +28,7 @@ def szys():
 		
         if result >= 100:
 		
-            result = szys()
+            result = arithmetic()
 			
             return result
 
@@ -38,7 +38,7 @@ def szys():
 		
         if result >= 100:
 		
-            result=szys()
+            result=arithmetic()
 			
             return result
 
@@ -58,7 +58,7 @@ def szys():
 		
         if result >= 100:
 		
-            result = szys()
+            result = arithmetic()
 			
             return result
 			
@@ -85,7 +85,7 @@ def test():
     while m <= (n - 1):
         print(m + 1, end='、')
 
-        result.append(szys())
+        result.append(arithmetic())
 
         print(' ')
 
@@ -125,7 +125,7 @@ if n == 1:
 	
         print('第',x,'题')
 		
-        result = szys()
+        result = arithmetic()
 
         j = input()
 
