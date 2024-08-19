@@ -1,18 +1,18 @@
 import random
 
 
-# 四则运算
+# 包括加、减、乘、除四种运算
 
 def arithmetic():
     sym = ['＋', '－', '×', '÷']
 
-    f = random.randint(0, 3)
+    f = random.randint(0, 3)#生成从0-3
 
-    n1 = random.randint(1, 20)
+    n1 = random.randint(1, 20)#从1-20进行生成
 
     n2 = random.randint(1, 20)
 
-    result = 0
+    result = 0#初始化结果为0
 
     if f == 0:  # 加法
 
