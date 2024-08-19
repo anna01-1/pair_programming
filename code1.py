@@ -4,7 +4,7 @@ import random
 
 # 四则运算
 
-def szys():
+def arithmetic():
     sym = ['＋', '－', '×', '÷']
 
     f = random.randint(0, 3)
@@ -63,7 +63,7 @@ def test():
     while m <= (n - 1):
         print(m + 1, end='、')
 
-        result.append(szys())
+        result.append(arithmetic())
 
         print(' ')
 
@@ -93,7 +93,7 @@ if n == 1:
 
     while True:
 
-        result = szys()
+        result = arithmetic()
 
         j = input()
 
