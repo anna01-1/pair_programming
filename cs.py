@@ -3,7 +3,7 @@ import unittest
 import HTMLTestRunner
 
 import testfile
-
+import random
 class fileTest(unittest.TestCase):
 
     @classmethod
