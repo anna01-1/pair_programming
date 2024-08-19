@@ -27,27 +27,27 @@ class Test(unittest.TestCase):
 
     def test_limit(self):
         print('execute test_limit')
-        t = yunsuan.szys()
+        t = yunsuan.sarithmeticzys()
         assert 0 < t < 100
 
     def test_negative(self):
         print('execute test_negative')
-        t = yunsuan.szys()
+        t = yunsuan.arithmetic()
         t = -1
 
     def test_than(self):
         print('execute test_than')
-        t = yunsuan.szys()
+        t = yunsuan.arithmetic()
         assert t > 100
 
     def test_empty(self):
         print('execute test_empty')
-        t = yunsuan.szys()
+        t = yunsuan.arithmetic()
         self.assertIsNotNone(t)
 
     def test_integer(self):
         print('execute test_integer')
-        t = yunsuan.szys()
+        t = yunsuan.arithmetic()
         self.assertIsInstance(t, int)
 
     def test_test(self):
