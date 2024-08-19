@@ -7,6 +7,7 @@
 import unittest
 import HTMLTestRunner
 import yunsuan
+import random
 
 class Test(unittest.TestCase):
 
