@@ -1,6 +1,6 @@
 #codeing your code
 import random
-
+import random
 
 # 四则运算
 
