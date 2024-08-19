@@ -2,7 +2,7 @@ import random
 
 
 # 四则运算
-
+#
 def szys():
     sym = ['＋', '－', '×', '÷']
 
